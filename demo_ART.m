@@ -81,6 +81,6 @@ subplot(243);   imagesc(x_low,  wndImg);    axis image off;     title({['low-dos
 subplot(247);   imagesc(y,  wndPrj);        xlabel(['Angle ( \Delta\theta : ' num2str(ANG/VIEW) ' \circ )']);   ylabel('Detector'); title(['low-dose_{view : ', num2str(VIEW) '} using I0 = ' num2str(i0, '%.2e')]);
 
 subplot(244);   imagesc(x_art,  wndImg);    axis image off;     title({['recon_{art}'], ['MSE : ' num2str(mse_x_art, '%.4e')], ['PSNR : ' num2str(psnr_x_art, '%.4f')], ['SSIM : ' num2str(ssim_x_art, '%.4f')]});
-subplot(248);   imagesc(y - p);             xlabel(['Angle ( \Delta\theta : ' num2str(ANG/VIEW) ' \circ )']);   ylabel('Detector'); title('full-dose - low-dose');
+subplot(248);   imagesc(y - p);             xlabel(['Angle ( \Delta\theta : ' num2str(ANG/VIEW) ' \circ )']);   ylabel('Detector'); title({['full-dose - low-dose'],'(Poisson noise)'});
 
 
