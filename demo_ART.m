@@ -49,7 +49,7 @@ end
 
 x_art   = ART(A, AT, y, x0, lambda, niter, bpos);
 
-%% CALCUATE QUANTIFICATION FACTOR
+%% CALCULATE QUANTIFICATION FACTOR
 x_low       = max(x_low, 0);
 x_art       = max(x_art, 0);
 nor         = max(x(:));
