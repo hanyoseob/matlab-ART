@@ -25,7 +25,7 @@ for i = 1:niter
     figure(1); colormap gray;
     imagesc(x);
     axis image off;
-    title([i, niter], '%d / %d']);
+    title(num2str([i, niter], '%d / %d'));
     drawnow();
 end
 
