@@ -9,7 +9,7 @@ The **algebraic reconstruction technique (ART)** is an [iterative reconstruction
 An advantage of ART over other reconstruction methods (such as [filtered backprojection (FBP)](https://en.wikipedia.org/wiki/Radon_transform)) is that it is relatively easy to incorporate prior knowledge into the reconstruction process.
 
 
-## Equation
+## Definition
 ![alt text](./img/eq_ART.png "Equation of ART")
 
 ## Results
